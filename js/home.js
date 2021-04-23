@@ -3,7 +3,7 @@ const audio = new Audio('../audio/turbo.mp3');
 audio.volume = 0.05;
 
 car.addEventListener(
-	'mouseover',
+	'click',
 	() => {
 		audio.play();
 	},
