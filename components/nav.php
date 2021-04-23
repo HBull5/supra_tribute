@@ -1,4 +1,4 @@
-<nav class="z-10 fixed w-full flex">
+<nav class="z-10 fixed top-0 right-0 w-full flex">
     <!-- Desktop Nav -->
     <div class="hidden lg:flex h-16 w-full shadow-2xl bg-red-600 justify-center items-center">
         <div class="lg:flex container mx-auto flex justify-between items-center px-3">

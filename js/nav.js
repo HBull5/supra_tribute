@@ -1,8 +1,10 @@
+// Nav DOM Vars
 const mobileOpenBtn = document.querySelector('#mobile-open-btn');
 const mobileCloseBtn = document.querySelector('#mobile-close-btn');
 const mobileNavCollapsed = document.querySelector('#mobile-nav-collapsed');
 const mobileNavExpanded = document.querySelector('#mobile-nav-expanded');
 
+// On Load Event Listener
 window.addEventListener(
 	'load',
 	() => {
@@ -11,6 +13,7 @@ window.addEventListener(
 	false
 );
 
+// On Click Event Listener
 mobileOpenBtn.addEventListener(
 	'click',
 	() => {

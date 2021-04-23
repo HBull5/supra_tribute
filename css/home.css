@@ -3,6 +3,14 @@
 	background: red;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto';
+}
+
 .play-on-hover {
 	animation-play-state: paused;
 }
