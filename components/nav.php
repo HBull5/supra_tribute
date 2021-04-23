@@ -1,7 +1,6 @@
-<!-- Navigation -->
-<nav class="h-screen z-10 fixed w-full flex">
+<nav class="z-10 fixed w-full flex">
     <!-- Desktop Nav -->
-    <div class="hidden h-16 shadow-2xl bg-red-600 flex justify-center items-center">
+    <div class="hidden lg:flex h-16 w-full shadow-2xl bg-red-600 justify-center items-center">
         <div class="lg:flex container mx-auto flex justify-between items-center px-3">
             <a href="/">
                 <h1 class="text-3xl text-white transition duration-300 transform hover:scale-105"
@@ -31,7 +30,7 @@
     </div>
 
     <!-- Mobile Nav -->
-    <div class="h-full flex lg:hidden w-full">
+    <div class="flex lg:hidden w-full">
         <!-- Mobile Nav Collapse -->
         <div id="mobile-nav-collapsed"
             class="h-16 flex justify-between items-center bg-red-600 justify-between items-center w-full px-3">
@@ -45,7 +44,7 @@
         </div>
 
         <!-- Mobile Nav Expanded -->
-        <div id="mobile-nav-expanded" class="hidden w-full transition duration-300">
+        <div id="mobile-nav-expanded" class="hidden h-screen w-full transition duration-300">
             <ul class="h-full w-full flex flex-col justify-center items-center text-white bg-red-600">
                 <li>
                     <i id="mobile-close-btn" class="fas fa-times text-white text-3xl mb-5"></i>
