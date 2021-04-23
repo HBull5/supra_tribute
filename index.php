@@ -4,13 +4,13 @@
 <!-- Head -->
 <?php include './components/head.php';?>
 
-<body class="overflow-x-hidden" style="font-family: 'Roboto'">
+<body style="font-family: 'Roboto'">
 
     <!-- Navigation -->
     <?php include './components/nav.php';?>
 
     <!-- Showcase -->
-    <section class="h-screen container mx-auto flex justify-center items-center px-5">
+    <section class="overflow-hidden h-screen w-screen container mx-auto flex justify-center items-center px-5">
         <div class="h-full w-4/6 flex flex-col justify-center items-center">
             <img class="mb-3 animate__animated animate__fadeInUp" src="/img/supra_logo.svg" alt="" />
             <div
