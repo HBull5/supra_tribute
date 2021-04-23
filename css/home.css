@@ -1,0 +1,12 @@
+*::selection {
+	color: white;
+	background: red;
+}
+
+.play-on-hover {
+	animation-play-state: paused;
+}
+
+.play-on-hover:hover {
+	animation-play-state: running;
+}
