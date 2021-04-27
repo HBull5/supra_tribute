@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/home.css">
     <!-- Custom JS -->
     <script src="js/home.js" defer></script>
-    <title>Supra Tribute | Home</title>
+    <title>Home | Supra Tribute</title>
 </head>
 
 <body class="roboto-thin">
