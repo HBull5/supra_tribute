@@ -18,9 +18,9 @@
 
     <!-- Showcase -->
     <section id="showcase" class="h-screen">
-        <div class="h-5/6 overflow-hidden container mx-auto flex flex-col sm:flex-row justify-center items-center px-5">
+        <div class="h-5/6 overflow-hidden container mx-auto flex flex-col sm:flex-row justify-center items-center px-5 relative top-16">
             <!-- Logo + Text + Buttons -->
-            <div class="h-full w-4/6 flex flex-col justify-center items-center">
+            <div class="h-full w-1/2 flex flex-col justify-center items-center">
                 <img class="mb-3 animate__animated animate__fadeInUp" src="/img/supra_logo.svg" alt="" />
                 <div
                     class="flex flex-col justify-center items-center animate__animated animate__fadeInDown animate__delay-1s">
@@ -46,7 +46,7 @@
             </div>
             <!-- Supra -->
             <div
-                class="h-full w-2/6 hidden lg:flex justify-center items-center p-3 animate__animated animate__fadeInRight">
+                class="h-full w-1/2 hidden lg:flex justify-center items-center p-3 animate__animated animate__fadeInRight">
                 <img id="car" class="cursor-pointer transition duration-300 transform hover:scale-110"
                     src="/img/supra.png" alt="" />
             </div>
