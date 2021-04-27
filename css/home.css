@@ -1,20 +1,16 @@
 *::selection {
-	color: white;
-	background: red;
+    color: white;
+    background: red;
 }
 
 * {
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: 'Roboto';
+    scroll-behavior: smooth;
 }
 
 .play-on-hover {
-	animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 .play-on-hover:hover {
-	animation-play-state: running;
+    animation-play-state: running;
 }

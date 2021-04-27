@@ -1,27 +1,26 @@
 <nav class="z-10 fixed top-0 right-0 w-full flex">
     <!-- Desktop Nav -->
-    <div class="hidden lg:flex h-16 w-full shadow-2xl bg-red-600 justify-center items-center">
+    <div class="hidden lg:flex h-16 w-full shadow-2xl bg-red-600 justify-center items-center animate__animated animate__fadeInDown">
         <div class="lg:flex container mx-auto flex justify-between items-center px-3">
             <a href="/">
-                <h1 class="text-3xl text-white transition duration-300 transform hover:scale-105"
-                    style="font-family: 'Molle'">
+                <h1 class="text-3xl text-white roboto-thick transition duration-300 transform hover:scale-105">
                     Supra Tribute
                 </h1>
             </a>
 
             <ul class="flex justify-center items-center">
-                <a class="pr-2 transition duration-300 text-white transform hover:scale-110 hover:font-bold" href="/">
+                <a class="roboto-thick pr-2 transition duration-300 text-white transform hover:scale-110 hover:font-extrabold" href="/">
                     <li>Home</li>
                 </a>
-                <a class="px-2 transition duration-300 text-white transform hover:scale-110 hover:font-bold"
+                <a class="roboto-thick px-2 transition duration-300 text-white transform hover:scale-110 hover:font-extrabold"
                     href="/gallery.php">
                     <li>Gallery</li>
                 </a>
-                <a class="px-2 transition duration-300 text-white transform hover:scale-110 hover:font-bold"
+                <a class="roboto-thick px-2 transition duration-300 text-white transform hover:scale-110 hover:font-extrabold"
                     href="/models.php">
                     <li>Models</li>
                 </a>
-                <a class="pl-2 transition duration-300 text-white transform hover:scale-110 hover:font-bold"
+                <a class="roboto-thick pl-2 transition duration-300 text-white transform hover:scale-110 hover:font-extrabold"
                     href="/history.php">
                     <li>History</li>
                 </a>
@@ -35,8 +34,7 @@
         <div id="mobile-nav-collapsed"
             class="h-16 flex justify-between items-center bg-red-600 justify-between items-center w-full px-3">
             <a href="#">
-                <h1 class="text-3xl text-white transition duration-300 transform hover:scale-105"
-                    style="font-family: 'Molle'">
+                <h1 class="text-3xl roboto-thick text-white transition duration-300 transform hover:scale-105">
                     Supra Tribute
                 </h1>
             </a>
@@ -49,10 +47,10 @@
                 <li>
                     <i id="mobile-close-btn" class="fas fa-times text-white text-3xl mb-5"></i>
                 </li>
-                <li class="text-xl mb-5"><a href="/">Home</a></li>
-                <li class="text-xl mb-5"><a href="/gallery.php">Gallery</a></li>
-                <li class="text-xl mb-5"><a href="/models.php">Models</a></li>
-                <li class="text-xl mb-5"><a href="/history.php">History</a></li>
+                <li class="text-xl mb-5 roboto-thick"><a href="/">Home</a></li>
+                <li class="text-xl mb-5 roboto-thick"><a href="/gallery.php">Gallery</a></li>
+                <li class="text-xl mb-5 roboto-thick"><a href="/models.php">Models</a></li>
+                <li class="text-xl mb-5 roboto-thick"><a href="/history.php">History</a></li>
             </ul>
         </div>
     </div>
